@@ -11,22 +11,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd83b4d3-5367-49ee-9cfb-3115e70024a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/contact-keeper.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/pages/About.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/pages/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/contacts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/contacts/ContactFilter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/contacts/ContactForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/contacts/ContactItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/contacts/Contacts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/context/contact/ContactState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/context/contact/contactContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/context/contact/contactReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/context/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/pages/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +34,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iuRrhnMn8FiUcS5tUsHTy55p6I" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,8 +46,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.webOptions" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="client" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="client" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.client" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,7 +86,16 @@
       <workItem from="1603130716924" duration="51000" />
       <workItem from="1603130845826" duration="231000" />
       <workItem from="1603139628980" duration="2996000" />
-      <workItem from="1603208036309" duration="2482000" />
+      <workItem from="1603208036309" duration="3980000" />
+      <workItem from="1603264290569" duration="39000" />
+      <workItem from="1603264595876" duration="86000" />
+      <workItem from="1603270935820" duration="1927000" />
+      <workItem from="1603272887998" duration="161000" />
+      <workItem from="1603375296585" duration="4551000" />
+      <workItem from="1603442783070" duration="3019000" />
+      <workItem from="1603446008068" duration="5179000" />
+      <workItem from="1603455797461" duration="927000" />
+      <workItem from="1603461510282" duration="3251000" />
     </task>
     <servers />
   </component>
@@ -97,9 +123,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1280.64.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1603127653508" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1602961956605">
+    <state width="1899" height="367" key="GridCell.Tab.0.bottom" timestamp="1603272865695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/-1280.64.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1602961956605" />
+    <state width="1899" height="367" key="GridCell.Tab.0.bottom/-1280.64.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1603272865695" />
+    <state width="1899" height="367" key="GridCell.Tab.0.center" timestamp="1603272865695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="367" key="GridCell.Tab.0.center/-1280.64.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1603272865695" />
+    <state width="1899" height="367" key="GridCell.Tab.0.left" timestamp="1603272865694">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="367" key="GridCell.Tab.0.left/-1280.64.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1603272865694" />
+    <state width="1899" height="367" key="GridCell.Tab.0.right" timestamp="1603272865695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="367" key="GridCell.Tab.0.right/-1280.64.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1603272865695" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1603455780055">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/-1280.64.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1603455780055" />
   </component>
 </project>
