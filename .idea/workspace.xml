@@ -11,19 +11,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd83b4d3-5367-49ee-9cfb-3115e70024a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/contacts/ContactFilter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/contacts/ContactForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/contacts/ContactItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/contacts/Contacts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/context/contact/ContactState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/context/contact/contactContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/context/contact/contactReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/context/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/auth/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/auth/Register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/layout/Alerts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/context/alert/AlertState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/context/alert/alertContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/context/alert/alertReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/context/auth/AuthState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/context/auth/authContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/context/auth/authReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/context/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/context/types.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +96,10 @@
       <workItem from="1603446008068" duration="5179000" />
       <workItem from="1603455797461" duration="927000" />
       <workItem from="1603461510282" duration="3251000" />
+      <workItem from="1603550405496" duration="323000" />
+      <workItem from="1603647727177" duration="4629000" />
+      <workItem from="1603729629744" duration="512000" />
+      <workItem from="1603730163750" duration="5995000" />
     </task>
     <servers />
   </component>
@@ -115,10 +119,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="759" y="269" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603142198389">
+    <state x="759" y="269" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603652139507">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="759" y="269" key="#com.intellij.fileTypes.FileTypeChooser/-1280.64.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1603142198389" />
+    <state x="759" y="269" key="#com.intellij.fileTypes.FileTypeChooser/-1280.64.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1603652139507" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603127653508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
