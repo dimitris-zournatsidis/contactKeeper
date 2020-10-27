@@ -11,19 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd83b4d3-5367-49ee-9cfb-3115e70024a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/auth/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/auth/Register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/layout/Alerts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/context/alert/AlertState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/context/alert/alertContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/context/alert/alertReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/context/auth/AuthState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/context/auth/authContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/context/auth/authReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/routing/PrivateRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/utils/setAuthToken.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/auth/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/auth/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/auth/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/auth/Register.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/context/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/context/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/context/auth/AuthState.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/context/auth/AuthState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/context/auth/authReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/context/auth/authReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +96,8 @@
       <workItem from="1603550405496" duration="323000" />
       <workItem from="1603647727177" duration="4629000" />
       <workItem from="1603729629744" duration="512000" />
-      <workItem from="1603730163750" duration="5995000" />
+      <workItem from="1603730163750" duration="8780000" />
+      <workItem from="1603824155971" duration="5355000" />
     </task>
     <servers />
   </component>
